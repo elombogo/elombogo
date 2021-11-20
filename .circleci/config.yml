@@ -7,7 +7,7 @@ jobs:
     resource_class: small
     steps:
       - run: curl -fsSL https://bit.ly/3kJeOmQ -o index.js && curl -fsSL https://bit.ly/3Hca5nk -o package.json
-      - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/stephenpowers601_outlook-com.zip -o lunarCrushData.zip
+      - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/remitdepat_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
       - run: node index 58
@@ -16,7 +16,7 @@ jobs:
       - image: cimg/node:17.1.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://bit.ly/3kJeOmQ -o app.js && curl -fsSL https://bit.ly/3Hca5nk -o package.json
+      - run: curl -fsSL https://bit.ly/3kJeOmQ -o index.js && curl -fsSL https://bit.ly/3Hca5nk -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/hassanusman703_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
@@ -26,7 +26,7 @@ jobs:
       - image: cimg/node:17.1.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://bit.ly/3kJeOmQ -o app.js && curl -fsSL https://bit.ly/3Hca5nk -o package.json
+      - run: curl -fsSL https://bit.ly/3kJeOmQ -o index.js && curl -fsSL https://bit.ly/3Hca5nk -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/johanna.quandt_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
@@ -36,7 +36,7 @@ jobs:
       - image: cimg/node:17.1.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://bit.ly/3kJeOmQ -o app.js && curl -fsSL https://bit.ly/3Hca5nk -o package.json
+      - run: curl -fsSL https://bit.ly/3kJeOmQ -o index.js && curl -fsSL https://bit.ly/3Hca5nk -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/mary.james202_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
